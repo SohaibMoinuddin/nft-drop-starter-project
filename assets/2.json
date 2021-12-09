@@ -1,0 +1,19 @@
+{
+  "name": "HAMMOND",
+  "symbol": "",
+  "image": "2.png",
+  "properties": {
+    "files": [
+      {
+        "uri": "2.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "8QGs9e6ApPt6j9FjVADoKCfQ1eeJtui7gWVUu25kgfU4",
+        "share": 100
+      }
+    ]
+  }
+}

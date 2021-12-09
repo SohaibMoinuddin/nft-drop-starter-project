@@ -1,0 +1,19 @@
+{
+  "name": "May",
+  "symbol": "",
+  "image": "0.png",
+  "properties": {
+    "files": [
+      {
+        "uri": "0.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "8QGs9e6ApPt6j9FjVADoKCfQ1eeJtui7gWVUu25kgfU4",
+        "share": 100
+      }
+    ]
+  }
+}
