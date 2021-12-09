@@ -387,20 +387,20 @@ const CandyMachine = ({ walletAddress }) => {
   return (
     machineStats && (
       <div className="machine-container">
-        {renderDropTimer()}
+        {/* {renderDropTimer()} */}
         <p>{`Items Minted: ${machineStats.itemsRedeemed} / ${machineStats.itemsAvailable}`}</p>
         {/* Check to see if these properties are equal! */}
-        {machineStats.itemsRedeemed === machineStats.itemsAvailable ? (
-          <p className="sub-text">Sold Out 🙊</p>
-        ) : (
-          <button
-            className="cta-button mint-button"
-            onClick={mintToken}
-            disabled={isMinting}
-          >
-            Mint NFT
-          </button>
-        )}
+        {/* {machineStats.itemsRedeemed === machineStats.itemsAvailable ? ( */}
+        <p className="sub-text">Sold Out 🙊</p>
+        {/* ) : ( */}
+        {/* <button
+          className="cta-button mint-button"
+          onClick={mintToken}
+          disabled={isMinting}
+        >
+          Mint NFT
+        </button> */}
+        {/* )} */}
         {mints.length > 0 && renderMintedItems()}
         {isLoadingMints && <p>LOADING MINTS...</p>}
       </div>

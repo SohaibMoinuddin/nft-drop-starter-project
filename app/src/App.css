@@ -1,6 +1,13 @@
 .App {
   height: 100vh;
-  background-color: rgb(20, 20, 20);
+  background: rgb(255, 171, 247);
+  background: linear-gradient(
+    315deg,
+    rgba(255, 171, 247, 1) 11%,
+    rgba(152, 250, 156, 1) 59%,
+    rgba(121, 232, 255, 1) 100%
+  );
+
   overflow: scroll;
   text-align: center;
   overflow: hidden;
@@ -93,7 +100,7 @@
   color: white;
 }
 
-.connected-container input[type='text'] {
+.connected-container input[type="text"] {
   display: inline-block;
   padding: 10px;
   width: 50%;
